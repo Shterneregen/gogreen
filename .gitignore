@@ -5,3 +5,11 @@
 /*/*/target/
 /storage/
 /essentials/overlays/
+
+# generated files
+package-lock.json
+/repository-data/webfiles/src/main/resources/site/css/*/theme.css
+/repository-data/webfiles/src/main/resources/site/css/*/style2.css
+/repository-data/webfiles/src/main/resources/site/css/*/style2.css.map
+/repository-data/webfiles/src/main/resources/site/css/*/print.css
+/repository-data/webfiles/src/main/resources/site/css/*/print.css.map
