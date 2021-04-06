@@ -6,25 +6,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="<@hst.webfile path="/css/bootstrap.css"/>">
+  <link rel="stylesheet" href="<@hst.webfile path="/css/font-awesome.css"/>">
 
-  <link href='css/style.css' rel='stylesheet' type='text/css'>
-  <link href='css/responsive.css' rel='stylesheet' type='text/css'>
+  <link href="<@hst.webfile path="/css/style.css"/>" rel='stylesheet' type='text/css'>
+  <link href="<@hst.webfile path="/css/responsive.css"/>" rel='stylesheet' type='text/css'>
 
   <!-- Fonts -->
-  <link href="fonts/open-sans.css" rel='stylesheet' type='text/css'>
-  <link href="fonts/raleway.css" rel='stylesheet' type='text/css'>
+  <link href="<@hst.webfile path="/fonts/open-sans.css"/>" rel='stylesheet' type='text/css'>
+  <link href="<@hst.webfile path="/fonts/raleway.css"/>" rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" media="screen" type="text/css" href="css/hippo-green.css" />
+  <link rel="stylesheet" media="screen" type="text/css" href="<@hst.webfile path="/css/hippo-green.css"/>" />
 
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="<@hst.webfile path="/images/favicon.ico"/>" type="image/x-icon" />
+  <link rel="shortcut icon" href="<@hst.webfile path="/images/favicon.ico"/>" type="image/x-icon" />
 
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" href="<@hst.webfile path="/images/apple-touch-icon.png"/>" />
 
-  <link rel="alternate" type="application/rss+xml" title="BloomReach Go Green RSS" href="rss" />
+  <link rel="alternate" type="application/rss+xml" title="BloomReach Go Green RSS" href="<@hst.webfile path="/rss"/>" />
 
+  <@hst.headContributions categoryIncludes="htmlHead" xhtml=true/>
 </head>
 <body class="bgpattern-neutral">
 
@@ -68,7 +69,7 @@
 
           <!-- Logo -->
           <div class="col-xs-2 logo">
-            <a href="index.html"><img src="images/gogreenlogo2.png" alt="" height="107" /></a>
+            <a href="index.html"><img src="<@hst.webfile path="/images/gogreenlogo2.png"/>" alt="" height="107" /></a>
           </div>
           <!-- //Logo// -->
 
@@ -82,16 +83,7 @@
             </div>
             <!-- //Mobile Button Menu// -->
 
-            <nav>
-              <ul class="navigation" id="main-navigation">
-                <li><a href="index.html" class="activelink"><span class="label-nav">Home</span> </a></li>
-                <li><a href="news.html"><span class="label-nav">News</span></a></li>
-                <li><a href="blogs.html"><span class="label-nav">Blogs</span></a></li>
-                <li><a href="events.html"><span class="label-nav">Events</span></a></li>
-                <li><a href="products.html"><span class="label-nav">Products</span></a></li>
-                <li><a href="about.html"><span class="label-nav">About</span></a></li>
-              </ul>
-            </nav>
+            <@hst.include ref="menu"/>
 
             <!-- Mobile Nav. Container -->
             <ul class="mobile-nav">
@@ -125,180 +117,17 @@
         </div>
       </div>
     </div>
-
-    <div>
-
-      <div id="banner-carousel" class="carousel slide " data-ride="carousel" data-interval="5000" data-pause="hover"
-           data-wrap="false">
-        <ol class="carousel-indicators">
-          <li data-target="#banner-carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#banner-carousel" data-slide-to="1"></li>
-          <li data-target="#banner-carousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="item active" style="background-image:url(binaries/content/gallery/banners/office.jpg);">
-            <a href="blogs-detail.html">
-              <div class="carousel-caption">
-                <h3>10 simple steps to green your office</h3>
-                <p>The following list for greening your office is by no means exhaustive,
-                  but a way to get started in making your workplace more environmentally friendly.</p>
-              </div>
-            </a>
-          </div>
-          <div class="item" style="background-image:url(binaries/content/gallery/banners/thermostat2.jpg);">
-            <a href="blogs-detail.html">
-              <div class="carousel-caption">
-                <h3>Is a smart thermostat worth the investment?</h3>
-                <p>Will I really be able to save money and energy in the long run by
-                  spending hundreds of dollars now for a so-called &#034;smart&#034; thermostat?</p>
-              </div>
-            </a>
-          </div>
-          <div class="item" style="background-image:url(binaries/content/gallery/banners/study.jpg);">
-            <a href="blogs-detail.html">
-              <div class="carousel-caption">
-                <h3>How to green your dorm room</h3>
-                <p>Every year, college students generate thousands of tons of garbage,
-                  because of the choices they make in buying furniture and accessories. Luckily, getting your dorm to be
-                  green has never been easier.</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="content-wrapper home">
-    <div class="body-wrapper">
-
-      <!-- featured products -->
-
-      <div class="row">
-        <div class="col-md-12 col-sm-12">
-          <h2 class="h2-section-title">Featured Products</h2>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-4">
-            <div class="feature product-category">
-              <div class="feature-image">
-                <a href="products-detail.html"><img
-                          src="binaries/content/gallery/products/family-tent.jpg" alt="" /></a>
-                <div class="feature-content">
-                  <h3 class="h3-body-title">
-                    <a href="products-detail.html"> MEC Lodge 4+4 Tent</a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="feature product-category">
-              <div class="feature-image">
-                <a href="products-detail.html"><img
-                          src="binaries/content/gallery/products/lifeproof-ipad-case.jpg" alt="" /></a>
-                <div class="feature-content">
-                  <h3 class="h3-body-title">
-                    <a href="products-detail.html"> LifeProof nüüd iPad Air Case</a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="feature product-category">
-              <div class="feature-image">
-                <a href="products-detail.html"><img
-                          src="binaries/content/gallery/products/gs_withlaptop_detail.jpg" alt="" /></a>
-                <div class="feature-content">
-                  <h3 class="h3-body-title">
-                    <a href="products-detail.html"> Laptop Sleeves - Neogreene</a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
+    <@hst.include ref="main"/>
   </div>
 
   <!-- footer -->
-  <footer>
-    <div class="footer">
-
-      <div class="container">
-        <div class="footer-wrapper">
-          <div class="row">
-
-
-            <!-- Footer Col. -->
-            <div class="col-md-3 col-sm-3 footer-col">
-              <div class="footer-content">
-                <div class="footer-content-logo">
-                  <a href="http://www.bloomreach.com" target="_blank"> <img src="images/logo-bloomreach.svg"
-                                                                            alt="bloomreach.com" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- //Footer Col.// -->
-
-
-            <!-- Footer Col. -->
-            <div class="col-md-3 col-sm-3 footer-col">
-              <div class="footer-title">SERVICE</div>
-              <div class="footer-content footer-recent-tweets-container">
-                <ul class="footer-category-list">
-                  <li><a href="rss">RSS</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- //Footer Col.// -->
-
-
-            <!-- Footer Col. -->
-            <div class="col-md-3 col-sm-3 footer-col">
-              <div class="footer-title">SECTIONS</div>
-              <div class="footer-content">
-                <ul class="footer-category-list">
-                  <li><a href="news.html">News</a></li>
-                  <li><a href="events.html">Events</a></li>
-                  <li><a href="blogs.html">Blogs</a></li>
-                  <li><a href="products.html">Products</a></li>
-                  <li><a href="about.html">About</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- //Footer Col.// -->
-
-
-            <!-- Footer Col. -->
-          </div>
-        </div>
-
-      </div>
-      <div class="copyright">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 center-text">
-              <div class="copyright-text">BloomReach &copy; 2010-2018</div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <@hst.include ref="footer"/>
 </div>
 
-<script src="js/jquery-2.1.0.min.js" type="text/javascript"></script>
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
-<script src="js/kanzi-menu.js" type="text/javascript"></script>
+<script src="<@hst.webfile path="/js/jquery-2.1.0.min.js"/>" type="text/javascript"></script>
+<script src="<@hst.webfile path="/js/bootstrap.min.js"/>" type="text/javascript"></script>
+<script src="<@hst.webfile path="/js/kanzi-menu.js"/>" type="text/javascript"></script>
 
+<@hst.headContributions categoryIncludes="htmlBodyEnd" xhtml=true/>
 </body>
 </html>
