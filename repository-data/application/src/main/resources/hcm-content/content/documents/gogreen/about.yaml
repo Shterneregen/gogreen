@@ -1,0 +1,75 @@
+/content/documents/gogreen/about:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 702516d2-82fe-42f0-adca-53d1b10d43c8
+  hippo:name: About
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 16d28120-f498-4777-a6ce-25c5c02ea8aa
+  hippotranslation:locale: en
+  /about:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 2b263cd0-85f5-4554-86f5-92f71fd66933
+    hippo:name: About
+    hippo:versionHistory: c96eeed9-9a0c-4239-8169-4afaf1ab3da3
+    /about[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a75b8824-f80f-40a6-91ce-3b648a9b7e91
+      gogreen:introduction: Demo Bloomreach project
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: About GoGreen
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-07T18:41:25.573+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-07T18:41:25.573+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a2d0540a-72b5-45fa-8ab5-807024e8d246
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /about[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 4b99f4eb-0f01-4663-afe5-fbc2ce34781f
+      gogreen:introduction: Demo Bloomreach project
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: About GoGreen
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-07T18:41:25.573+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-07T18:42:11.592+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a2d0540a-72b5-45fa-8ab5-807024e8d246
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /about[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e0e65b06-f320-4f2d-8d79-fb8b229c7313
+      gogreen:introduction: Demo Bloomreach project
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: About GoGreen
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-04-07T18:41:25.573+03:00
+      hippostdpubwf:lastModificationDate: 2021-04-07T18:42:11.592+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-04-07T18:42:15.721+03:00
+      hippotranslation:id: a2d0540a-72b5-45fa-8ab5-807024e8d246
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
