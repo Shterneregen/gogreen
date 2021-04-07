@@ -24,6 +24,7 @@ definitions:
           hippo:identifier: 99626e7c-1e00-49b4-a3b9-009aa84eedff
           hst:label: Home Page Main
           hst:xtype: hst.vbox
+          hst:lastmodified: 2021-04-07T15:12:45.863Z
       /pagenotfound:
         jcr:primaryType: hst:containercomponentfolder
         /main:
